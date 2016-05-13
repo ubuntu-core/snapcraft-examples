@@ -1,0 +1,16 @@
+name: hello-world-cli
+version: 0.1
+summary: Hello World
+description: |
+  This demo is intended to show how to build your first snap
+  This code is part of the Snapcraft example tour at
+  https://developer.ubuntu.com/snapcraft-getting-started
+
+parts:
+  hello:
+    plugin: cmake
+    source: src
+
+apps:
+  hello-world-cli:
+    command: hello
