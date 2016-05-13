@@ -1,0 +1,4 @@
+[Desktop Entry]
+Name=Qt Hello World example
+Exec=hello-world-combined.hello-world-desktop
+Type=Application
