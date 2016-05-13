@@ -1,0 +1,5 @@
+parts/*
+!parts/plugins/
+__pycache__/
+snap/
+stage/
